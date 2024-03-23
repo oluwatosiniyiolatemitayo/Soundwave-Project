@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 1536px;
+    }
+  }
+  /* THIS IS THE CODE FOR MOBILE */
+  .background {
+    background-color: #2F303A;
+    
+    background-size: cover;
+  }
+  .firstSection {
+    display: flex;
+    justify-content: space-between;
+  padding-top: 49px;
+    align-items: center;
+  }
+  nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+  }
+  nav span {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    display: none;
+  }
+  ul {
+    display: none;
+    list-style: none;
+    gap: 151px;
+    align-items: center;
+  }
+  nav li {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 400;
+  }
+  nav a {
+    color: #fff;
+  }
+  nav img {
+    width: 55px;
+  }
+  nav .menu {
+    color: #fff;
+    font-size: 25px;
+  }
+   /* .joinForm {
+    /* display: grid;
+    grid-template-rows: repeat(2)1fr; */
+    /* gap: 60% 40%; */
+
+  }
+  /* .joinForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  /* form{
+    
+    background-color:#202027;
+    color: #EAEAEA;
+    width: 793px;
+    height: 744px;
+    top: 236px;
+    left: 858px;
+    padding: 100px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+     */
+    
+  
+  /* input{
+    background-color: #202027;
+  border: 2px solid #1762A7 ;
+  border-radius: 10px;
+   */
+
+  }
+  /* h1{
+    
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 700px;
+   line-height: 108px;
+   text-align: center;
+   color: #EAEAEA;
+
+    
+
+  } */
+  /* h1 span{
+    color: #BC3A80 ;
+    font-family: Poppins;
+    font-size: 96px;
+   font-weight: 700;
+   line-height: 144px;
+   text-align: center; */
+
+  
+  /* .btn{
+    
+    height: 35px;
+    background-color: #1762A7;
+  
+    
+
+  }
+   */
+ 
+  
+   */
+  
+  
+  /* CODE FOR DESKTOP RESPONSIVENESS */
+  @media screen and (min-width: 1023px) 
+    nav .menu {
+      display: none;
+    }
+    ul {
+      display: flex;
+    }
+    nav span {
+      display: block;
+      
+    }
+    nav img {
+      width: 80px;
+    }
+    .secondSection {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding-top: 147px;
+      gap: 50px;
+      align-items: center;
+    }
+  
+    .secondSection h1 {
+      font-size: 72px;
+      line-height: 108px;
+    }
+    .secondSection p {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 54px;
+      padding-bottom: 126px;
+    }
+    .secondSection button {
+      width: 320px;
+      height: 99px;
+      font-size: 36px;
+    }
+   
+    .joinForm{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    form{
+      
+      background-color:#202027;
+      color: #EAEAEA;
+      width: 793px;
+      height: 744px;
+      top: 236px;
+      left: 858px;
+      padding: 100px;
+      margin-right: 80px;
+      margin-left: 80px;
+      margin-bottom: 80px;
+      margin-top: 80px;
+  }
+      
+      
+    
+    input{
+      background-color: #202027;
+    border: 2px solid #1762A7 ;
+    border-radius: 10px;
+    width: 602px;
+    height: 72px;
+    border-radius: 10px;
+    padding-bottom: 100px;
+    
+  
+    }
+    h1{
+      
+      font-family: Poppins;
+      font-size: 72px;
+      font-weight: 700px;
+     line-height: 108px;
+     text-align: center;
+     color: #EAEAEA;
+  
+      
+  
+    }
+    h1 span{
+      color: #BC3A80 ;
+      font-family: Poppins;
+      font-size: 96px;
+     font-weight: 700;
+     line-height: 144px;
+     text-align: center;
+  
+    }
+    .btn{
+      
+      height: 35px;
+      background-color: #1762A7;
+    
+      
+  
+    }
+    
+   
+    

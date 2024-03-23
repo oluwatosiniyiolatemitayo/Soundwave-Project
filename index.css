@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+/* THIS IS THE CODE FOR MOBILE */
+.background {
+  background-image: url("assets/background.png");
+  background-size: cover;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-between;
+padding-top: 49px;
+  align-items: center;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+nav span {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  display: none;
+}
+ul {
+  display: none;
+  list-style: none;
+  gap: 151px;
+  align-items: center;
+}
+nav li {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 400;
+}
+nav a {
+  color: #fff;
+}
+nav img {
+  width: 55px;
+}
+nav .menu {
+  color: #fff;
+  font-size: 25px;
+}
+.secondSection img {
+  width: 100%;
+}
+.secondSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  color: #fff;
+  padding-top: 40px;
+}
+.secondSection button {
+  background-color: #1762a7;
+  border: none;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+
+/* CODE FOR DESKTOP RESPONSIVENESS */
+@media screen and (min-width: 1023px) {
+  nav .menu {
+    display: none;
+  }
+  ul {
+    display: flex;
+  }
+  nav span {
+    display: block;
+  }
+  nav img {
+    width: 80px;
+  }
+  .secondSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 147px;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .secondSection h1 {
+    font-size: 72px;
+    line-height: 108px;
+  }
+  .secondSection p {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    padding-bottom: 126px;
+  }
+  .secondSection button {
+    width: 320px;
+    height: 99px;
+    font-size: 36px;
+  }
+}
